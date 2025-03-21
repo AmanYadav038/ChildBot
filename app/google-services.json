@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342516343276",
+    "project_id": "childbot-3c8fd",
+    "storage_bucket": "childbot-3c8fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342516343276:android:1d911171e90c5ad1d560c9",
+        "android_client_info": {
+          "package_name": "com.amans.childbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvimMVczrzvzfChl49oFfzoilNjsXxSek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

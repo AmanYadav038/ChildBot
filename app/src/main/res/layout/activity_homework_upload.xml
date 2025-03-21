@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".pages.HomeworkUploadActivity">
+
+    <EditText
+        android:id="@+id/homeworkTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="5dp"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Homework Title" />
+
+    <EditText
+        android:id="@+id/homeworkLinkEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="5dp"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:hint="Paste Google Drive Link"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/uploadHomeworkBtn"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Upload Homework" />
+    <TextView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back to chat bot"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

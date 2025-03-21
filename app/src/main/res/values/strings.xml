@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChildBot</string>
+
+    <string-array name="study_preference">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Night</item>
+    </string-array>
+</resources>
